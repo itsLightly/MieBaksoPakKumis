@@ -1,0 +1,157 @@
+body {
+      font-family: 'Raleway', sans-serif;
+      background: #fdf6ec;
+      color: #333;
+    }
+
+    nav {
+      background-color: #d7263d;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 999;
+    }
+
+    nav .logo {
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+  position: relative;
+  height: 100vh;
+  background: url('Untitled1.png') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4); /* transparansi hitam */
+  z-index: 1;
+}
+.hero-text-box {
+  background: rgba(0, 0, 0, 0.6); /* kotak hitam semi transparan */
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+  position: relative;
+  max-width: 700px;
+  width: 90%;
+}
+
+
+.hero h1 span {
+  color: #ffcc00; /* kuning */
+}
+
+.hero p {
+  position: relative;
+  z-index: 2;
+}
+
+    .hero h1 {
+      font-size: 3rem;
+      color: #d7263d;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+    }
+
+    .section {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    .section h2 {
+      color: #d7263d;
+      margin-bottom: 2rem;
+      font-size: 2.2rem;
+    }
+
+    .menu-block {
+      background: #fff5e6;
+      border: 2px solid #d7263d;
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin: 1rem auto;
+      max-width: 600px;
+      text-align: left;
+    }
+
+    .menu-block h3 {
+      color: #d7263d;
+      margin-bottom: 1rem;
+    }
+
+    .menu-block ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .menu-block li {
+      margin-bottom: 0.5rem;
+    }
+
+    .menu-image {
+      max-width: 80%;
+      border-radius: 10px;
+      margin-top: 2rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    iframe {
+      border-radius: 10px;
+      margin-top: 2rem;
+    }
+
+    .contact-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      max-width: 1000px;
+      margin: auto;
+      margin-top: 2rem;
+    }
+
+    .contact-grid div h3 {
+      color: #d7263d;
+      margin-bottom: 0.5rem;
+    }
+
+    .footer-note {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #d7263d;
+    }
